@@ -1,9 +1,9 @@
 body{
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding-left: 10px;
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: yellow;
     color: black;
 }
 .happy{
@@ -13,15 +13,16 @@ body{
 
 }
 .sad{
-    padding-top: 5px;
+
     display: inline;
 }
 .css{
     color: blue;
     size: 3cm;
-    padding: 22rem;
+    padding-left: 40px;
 }
 h1{
+    padding-inline-start: 200px;
     color: blue;
     text-decoration:rgb(65, 214, 65)
 }
@@ -31,6 +32,7 @@ color: rgb(22, 177, 33);
     
 }
 .b{
+
     color: rgb(22, 177, 33);
 }
 .c{
@@ -40,7 +42,8 @@ main{
     margin: auto;
     padding-top: 1em;
 }
-img{
+.ii{
     width: 300px;
     height: 200px;
 }
+
