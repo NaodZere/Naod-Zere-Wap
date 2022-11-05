@@ -44,6 +44,7 @@ nav {
 #navs {
     padding-left: 800px;
     text-align: center;
+    position: fixed;
     
 
 }
@@ -52,6 +53,7 @@ nav a {
     /* font-size: larger; */
     vertical-align: middle;
     padding-right: 1em;
+   
 }
 
 span {
