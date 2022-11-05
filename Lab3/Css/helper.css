@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"); */
 
 
 body {
@@ -76,7 +76,7 @@ header {
     margin-inline: -3px;
 
     /* margin-left: 45px; */
-    border-inline: 1px solid rgb(225, 225, 225);
+    border-inline: 1px solid rgb(214, 212, 212);
 
     /* border-collapse: collapse; */
     display: inline-block;
@@ -87,10 +87,12 @@ header {
 }
 #leftbox{
     border-left: 0ch;
+    
 }
 #rightbox{
     border-right: 0;
     vertical-align: top ;
+
 }
 
 button{
@@ -185,5 +187,10 @@ h3{
 .blue{
     text-decoration: none;
     color: rgb(130, 149, 173);
+}
+.ii{
+    padding-left: 44em;
+    
+   
 }
 
