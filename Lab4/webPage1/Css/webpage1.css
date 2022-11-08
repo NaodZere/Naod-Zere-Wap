@@ -103,7 +103,7 @@ label[for = "text"]{
 #btn{
     height: 40px;
     margin-top: 10px;
-    margin-left: 356px;
+    margin-left: 300px;
     float: right;
     
 
@@ -151,6 +151,7 @@ h6{
 .n{
     color: white;
     margin: 11px;
+    float: inline-end;
     font-size: x-large;
     background-size: auto;
     text-decoration: none;
