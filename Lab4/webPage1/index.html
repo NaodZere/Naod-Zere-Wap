@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../webPage1/Css/webpage1.css">
+    <script src="./js/produ.js">product</script>
     <title>Webform2.PNG</title>
 </head>
 
@@ -39,7 +40,7 @@
           </div>
         </div>
       </nav>
-
+      <form id="form" action="#" autocomplete="on">
  <div class="container">
 
      <div class="row">
@@ -47,7 +48,7 @@
 
         <div class="col-md-6">
 
-            <form>
+        
                 <label for="email">Product Number</label>
                 <input type="text" placeholder="">
 
@@ -66,7 +67,7 @@
 
                 <label id="sup" for="">Suppliers</label>
                 <select name="supplier">
-                    <option selected>Select a supplier</option>
+                    <option selected hidden disabled>Select a supplier</option>
                     <option>miu housing</option>
                     <option>maharishi university cafeteria</option>
                     <option>miu fixit</option>
@@ -89,11 +90,12 @@
                 </div>
 
                
-            </form>
+         
         </div>
     </div>
 
 </div>
+</form>
     
 </body>
 </html>
