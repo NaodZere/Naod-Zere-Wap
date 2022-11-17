@@ -112,8 +112,10 @@ const Employee = (function(){
         IncreeSalary: increaseSalary,
         IncremAge: increamentAge
     }
-});
-
+})();
+Employee.MySetAge(23);
+Employee.MySetName("naod");
+Employee.MySetSalary(234);
 
 
 
