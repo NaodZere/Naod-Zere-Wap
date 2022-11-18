@@ -23,4 +23,4 @@ person.forEach(p => console.log(p.toString()));
 const hanson = new Employee("Jim Hanson", new Date(1998,10,12), 245990.0);
 
 hanson.doJob("Software Engineer");
-console.log(hanson.hireDate);
+// console.log(hanson);
