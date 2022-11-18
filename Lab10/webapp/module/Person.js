@@ -2,7 +2,7 @@
  * Person.js
  */
 
-// "use strict";
+"use strict";
 
 export class Person{
     name = "";
@@ -13,22 +13,22 @@ export class Person{
         this.dateOfBirth = dateOfBirth;
     }
 
-    getname = function(){
+    getName = function(){
         return this.name;
     }
 
-  setname = function(value){
+  setName = function(value){
         this.name = value;
     }
- getdateOfBirth = function(){
+ getDateOfBirth = function(){
         return this.dateOfBirth;
     }
-  setdateOfBirth = function(value){
+  setDateOfBirth = function(value){
         this.dateOfBirth = value;
     }
 
     toString(){
-        return `Name: ${this.getname()}, DateOfBirth: ${this.getdateOfBirth()} `
+        return `Name: ${this.getName()}, DateOfBirth: ${this.getDateOfBirth().getFullYear()}-${this.getDateOfBirth().getMonth()+ 1}- ${this.getDateOfBirth().getDate()}`
     }
 }
 
